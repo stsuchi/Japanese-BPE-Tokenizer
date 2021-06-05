@@ -1,6 +1,6 @@
 from tokenizers import AddedToken, normalizers, pre_tokenizers
 from tokenizers.implementations import ByteLevelBPETokenizer
-from ..utils.pre_tokenizers import MeCabPreTokenizer
+from .pre_tokenizers import MeCabPreTokenizer
 import os
 
 class MecabBPETrainTokenizer(ByteLevelBPETokenizer):
