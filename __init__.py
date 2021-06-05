@@ -1,0 +1,1 @@
+from .tokenizer.mecab_bpe_tokenizer import MecabBPETokenizer
