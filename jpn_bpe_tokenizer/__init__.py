@@ -1,2 +1,2 @@
-from .tokenizer.mecab_bpe_tokenizer import MecabBPETokenizer
-from .train.implementations import MecabBPETrainTokenizer
+from tokenizer.mecab_bpe_tokenizer import MecabBPETokenizer
+from train.implementations import MecabBPETrainTokenizer
