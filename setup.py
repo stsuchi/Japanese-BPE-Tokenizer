@@ -6,7 +6,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='Japanese-BPE-Tokenizer',
-      version='0.1.1',
+      version='0.1.2',
       description='Mecab-based BPE toknizer for Japanese text',
       url='http://github.com/stsuchi/Japanese-BPE-Tokenizer',
       author='Shiro T.',
