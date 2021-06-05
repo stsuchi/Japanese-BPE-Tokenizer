@@ -7,5 +7,5 @@ setup(name='Japanese-BPE-Tokenizer',
       author='Shiro T.',
       license='MIT',
       packages=['jpn_bpe_tokenizer'],
-      install_requires=['transformers','fugashi','unidic_lite']
+      install_requires=['transformers','fugashi','unidic_lite'],
       zip_safe=False)
