@@ -1,0 +1,3 @@
+transformers
+fugashi
+unidic_lite
