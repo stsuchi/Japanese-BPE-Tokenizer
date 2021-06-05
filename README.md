@@ -6,7 +6,7 @@ The package applies Mecab and Byte Pair Encoding algorithms to tokenize Japanese
 ## Usage
 To train a new tokenizer, import the module
 ```
-from train.implementations import MecabBPETrainTokenizer
+from jpn_bpe_tokenizer import MecabBPETrainTokenizer
 ```
 
 Instantiate the object
@@ -21,7 +21,14 @@ tokenizer.train(files,
                 special_tokens=["<pad>", "<unk>", "<s>", "</s>", "<mask>"])
 ```
 
-And finally, save the trained config files
+Save the trained config files
 ```
 tokenizer.save_model('config')
+```
+
+When you have config files, use them to tokenize new text with a tokenizer object
+```
+from jpn_bpe_tokenizer import MecabBPETokenizer
+
+tokenizer = MecabBPETokenizer('config/vocab.json','config/merges.txt')
 ```
